@@ -10,4 +10,4 @@ Run migrations with `migrate -database "sqlite3://test.db" -path internal/migrat
 
 # TODO
 
-* It would be cool to not require cgo to run this project, and right now our hard requirement is the mattn sqlite3 driver (it's used by go-migrate)
+* ~~It would be cool to not require cgo to run this project, and right now our hard requirement is the mattn sqlite3 driver (it's used by go-migrate)~~ you can actually just specify the sqlite (modernc) driver when building go-migrate

@@ -2,7 +2,7 @@
 // versions:
 //   sqlc v1.31.1
 
-package db
+package chunks
 
 type Chunk struct {
 	ID      int64

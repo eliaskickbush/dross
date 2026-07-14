@@ -1,9 +1,10 @@
 version: "2"
 sql:
   - engine: "sqlite"
-    queries: "internal/db/queries.sql"
+    queries:
+      - "internal/chunks/queries.sql"
     schema: "internal/migrations"
     gen:
       go:
-        package: "db"
-        out: "internal/db"
+        package: "chunks"
+        out: "internal/chunks"
